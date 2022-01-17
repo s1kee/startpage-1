@@ -32,6 +32,8 @@ html, body {
   grid-area: left;
   aspect-ratio: 1/1;
   padding-left: 60px;
+  height: 50%;
+  width: 50%;
 }
 
 .right-container {
