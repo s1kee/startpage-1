@@ -18,8 +18,8 @@ html, body {
 
 .window {
   position: absolute;
-  height: 98%;
-  width: 98%;
+  height: 100%;
+  width: 100%;
   z-index:99;
   pointer-events: none;
 }
@@ -49,7 +49,7 @@ html, body {
   grid-template-columns: 1fr 460px 600px 1fr;
   grid-template-areas:
     ". left right .";
-  column-gap: 80px;
+  column-gap: 40px;
   justify-items: center;
   align-items: center;
   min-height: 100%;
@@ -61,6 +61,8 @@ html, body {
   aspect-ratio: 1/1;
   padding-top: 50px;
   padding-left: 50px;
+  max-width: 70%;
+  max-height: 70%;
 }
 
 .right-container {
