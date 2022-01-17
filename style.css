@@ -2,8 +2,8 @@
     --color-bg: #242424;
     --color-fg: #d6d0bf;
     --color-link: #8F9191;
-    --color-link-visited: #aba9a2;
-    --color-link-hover: #857691 ;
+    --color-link-visited: #857691;
+    --color-link-hover: #d6d0bf;
 }
 
 html, body {
@@ -32,6 +32,7 @@ html, body {
   grid-area: left;
   aspect-ratio: 1/1;
   height: 80%;
+  padding-left: 60px;
 }
 
 .right-container {
