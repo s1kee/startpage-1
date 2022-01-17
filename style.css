@@ -31,7 +31,7 @@ html, body {
 .left-container {
   grid-area: left;
   aspect-ratio: 1/1;
-  padding-left: 60px;
+  padding-left: 100px;
   height: 70%;
   width: 70%;
 }
