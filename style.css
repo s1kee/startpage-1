@@ -54,7 +54,7 @@ html, body {
   grid-template-columns: 1fr 360px 480px 1fr;
   grid-template-areas:
     ". left right .";
-  column-gap: 30px;
+  column-gap: 20px;
   justify-items: center;
   align-items: center;
   min-height: 100%;
