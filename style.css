@@ -24,6 +24,11 @@ html, body {
   pointer-events: none;
 }
 
+@media (max-width: 1082px) {
+    .window { display: none;
+    }
+}
+
 #scanlines {
     background-image: url("scanlines.png");
     background-repeat: repeat;
